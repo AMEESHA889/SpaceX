@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Launch_Page_Starlink1_vertical_18_DESKTOP_c851b30656.jpg);
+    height: 685px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+}
+.logo img{
+    width: 280px;
+    height: 331px;
+    margin-top: -125px;
+    margin-left: -50px;
+    margin-right: -277px;
+}
+.nav-bar{
+    list-style:none;
+    font-family: D-DIN-Bold, Arial, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left:101px;
+}
+.nav-bar li a{
+    color: white;
+    text-decoration: none;
+}
+.nav-bar li{
+    padding-left: 25px;
+    margin-top: 40px;
+}
+.shop{
+    list-style:none;
+    font-family: D-DIN-Bold, Arial, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.shop a{
+    color: white;
+    text-decoration: none;
+}
+.shop a{
+    margin-right: -3rem;
+    margin-top: 40px;
+}
+.shop i{
+    color: #fff;
+    padding-left: 83px;
+    padding-top: 40px;
+}
+.starlink{
+    color: #fff;
+    font-size: 44px;
+    padding-bottom: 30px;
+}
+.recent{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.title1{
+    margin-top: -258px;
+    margin-left: 71px;
+    
+}
+.btn{
+   position: relative;
+    font: 14px / 50px D-DIN-Bold, Arial, Verdana, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    -webkit-transition: color .5s cubic-bezier(.19,1,.22,1);
+    transition: color .5s cubic-bezier(.19,1,.22,1);
+    border: solid ;
+    border-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 19px;
+    padding-right: 30px;
+    padding-left: 40px;
+    
+}
+.btn:hover{
+    background-color: white;
+    color:black;
+    
+}
+.image2{
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Turksat_6_A_outsidesouthtwr_IMG_4865_desktop_f76015a49a.jpg);
+    background-size: cover;
+    height: 685px;
+    width: 100%;
+    margin-top: 105px;
+}
+.image3{
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Star8_9_070324_DSC_2119_desktop_156724d08a.jpg);
+    background-size: cover;
+    height: 685px;
+    width: 100%;
+    margin-top: 105px;
+}
+.image4{
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Eva_Suit_Desktop_alternate_1cf9bae18e.jpg);
+    background-size: cover;
+    height: 685px;
+    width: 100%;
+    margin-top: 105px;
+}
+.image5{
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/make_life_multiplanetary_desktop_3fa7cff73c.jpg);
+    background-size: cover;
+    height: 685px;
+    width: 100%;
+    margin-top: 77px;
+}
+
+.fa-solid{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 604px;
+    margin-left: 721px;
+    animation: opacity 1.6s ease-in-out 2s infinite;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+@keyframes opacity{
+    0%{
+        opacity: 0;
+        transform: translateY(0px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(20px);
+    }
+}
+.footer{
+    color: #fff; 
+    background-color: black;
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    margin-top: 77px;
+
+}
+.footer p{
+    margin:10px;
+    font-size: 13px;
+    margin-top: 36px;
+}
+.bold{
+    font-weight: bold;
+}
